@@ -1,0 +1,95 @@
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Style */
+
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: #eaeaea;
+    background-image: url(img/carbon_fibre.webp);
+    color: #333333;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background: white;
+}
+
+.header {
+    padding: 20px;
+}
+
+.header .judul {
+    margin-left: 38px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #03570a;
+}
+
+.header a:hover {
+    background-color: #0d30ba;
+    color: white;
+}
+
+.hero {
+    height: 480px;
+    background-image: url(img/komputer.jpg);
+    background-size: cover;
+    border-top: 5px solid lightskyblue;
+    border-bottom: 5px solid lightblue;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h2{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+ .content .penulis {
+    font-size: 11px;
+    margin-top: -15px;
+ }
+
+ .content .penulis a:hover {
+    background-color: #0d30ba;
+    color: white;
+}
+
+ .content .penulis a{
+    color: #03570a;
+    text-decoration: none;
+ }
+
+ .content p {
+    margin-bottom: 20px;
+    font-size: 14px;
+ }
+
+ .footer {
+    background-color: #333;
+ }
+
+ .footer .copy {
+    color: #eaeaea;
+    text-align: center;
+    font-size: 12px;
+ }
